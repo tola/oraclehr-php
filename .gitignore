@@ -1,0 +1,39 @@
+# Node-style stuff (if frontend tools are added)
+node_modules/
+dist/
+
+# VS Code configs
+.vscode/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Composer (if you ever use it)
+vendor/
+composer.lock
+
+# Logs and temp
+*.log
+*.tmp
+*.cache
+
+# Uploads or exported data (optional)
+uploads/
+export/
+
+# Secrets and sensitive configs
+.env
+.env.local
+.env.*
+
+# Oracle logs or binary dumps (if any)
+*.dmp
+*.log.xml
+
+# Ignore compiled PHP caches
+*.php~
+
+# Project-specific
+config/db.php
+

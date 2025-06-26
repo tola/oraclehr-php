@@ -1,0 +1,14 @@
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+form {
+    position: relative;
+    z-index: 1;
+}
